@@ -1,4 +1,5 @@
-"# TestTubeClassification" 
+TestTubeClassification
+=====
 
 Classification of litmus paper between 2 classes: red and blue.
 
@@ -24,7 +25,7 @@ Output:
 
 Algorithem description
 ====================
-given an input image:
+Given an input image:
 
 1. Search for brown blobs (test tube cork color).
 2. Build data base of the cork location
