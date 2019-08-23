@@ -1,4 +1,4 @@
-TestTubeClassification
+Test Tube Classification
 =====
 
 Classification of litmus paper between 2 classes: red and blue.
