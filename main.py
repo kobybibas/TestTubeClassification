@@ -1,4 +1,6 @@
-from TestTubesClass import *
+from TestTubesClass import TestTubes
+import matplotlib.pyplot as plt
+import cv2
 
 # Image location
 img_path = "TestImage.jpg"
@@ -28,7 +30,7 @@ for tube_num in range(0, tubes.getTestTubesNum()):
         labelStr = "Blue"
     else:
         labelStr = "Red"
-    print("Tube num=%d , classification %s" %(tube_num, labelStr))
+    print("Tube num=%d , classification %s" % (tube_num, labelStr))
 
 plt.imshow(tubes.plotDetectedTubes(rgb_img))
 plt.show()
